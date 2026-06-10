@@ -1,6 +1,6 @@
 # Insurance Charges Prediction
 
-A machine learning project that predicts medical insurance charges based on personal and health-related features using Linear Regression. This repository includes a Jupyter Notebook for data analysis and model training, as well as a Streamlit web application for interactive predictions.
+A machine learning project that predicts medical insurance charges based on personal and health-related features using Linear Regression. This repository includes a Jupyter Notebook for data analysis [...]
 
 ## 🚀 Features
 
@@ -33,7 +33,7 @@ A machine learning project that predicts medical insurance charges based on pers
 
 ## 📊 Dataset
 
-The project uses the [Medical Cost Personal Dataset](https://www.kaggle.com/mirichoi0218/insurance) from Kaggle. It contains information about individuals' medical insurance charges based on features like age, BMI, number of children, smoking status, gender, and region.
+The project uses the [Medical Cost Personal Dataset](https://www.kaggle.com/mirichoi0218/insurance) from Kaggle. It contains information about individuals' medical insurance charges based on features [...]
 
 **Features:**
 - age: Age of the individual
@@ -66,10 +66,10 @@ After running the notebook to generate the model files:
 
 ### Running with Docker
 
-Build the Docker image with the name `tarun343/insurance`:
+Pull the Docker image:
 
 ```bash
-docker build -t tarun343/insurance .
+docker pull tarun343/insurance
 ```
 
 Run the container and map Streamlit's port to your machine:
