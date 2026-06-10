@@ -64,6 +64,22 @@ After running the notebook to generate the model files:
 3. Open your web browser and navigate to the provided local URL (usually `http://localhost:8501`).
 4. Enter your personal information in the input fields and click "Predict Charges" to get an estimate of insurance costs.
 
+### Running with Docker
+
+Build the Docker image with the name `tarun343/insurance`:
+
+```bash
+docker build -t tarun343/insurance .
+```
+
+Run the container and map Streamlit's port to your machine:
+
+```bash
+docker run -p 8501:8501 tarun343/insurance
+```
+
+Then open `http://localhost:8501` in your browser.
+
 ## 🤖 Model Details
 
 - **Algorithm**: Linear Regression
